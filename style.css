@@ -25,6 +25,9 @@ body {
 }
 
 .visor {
+    display: flex;
+    align-items: center;
+    justify-content: end;
     font-family: 'Quicksand', sans-serif;
     font-size: 2.5rem;
     background-color: rgb(255, 255, 236);
@@ -32,15 +35,6 @@ body {
     height: 4rem;
     border-radius: 1rem;
     margin-bottom: 0.5rem;
-}
-
-.num-visor {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin: 0.5rem;
-    width: 17.8rem;
-    height: 3rem;
 }
 
 .botao {
